@@ -1,11 +1,42 @@
 # keras
 - 2023.04.01 ~ 2023.04.30
-- https://keras.io/
+# 목차
+- 딥러닝이란
+- 딥러닝을 위한 수학
+  -  MSE
+  -  SGD
+  -  Linear Regression
+  -  Sigmoid
+  -  Logistic Regression
+- 신경망 시작하기
+  - 손실그래프와 스케일링
+  - 과대적합과 과소적합
+  - 규제
+  - 교차검증
+- 다층신경망 이해
+  - 행렬연산
+  - 배치경사 하강법
+  - 2개층 신경망
+  - 미니배치 경사 하강법
+  - 다중분류 신경망
+- 주요 케라스 문법    
+  - 케라스에 대하여 https://keras.io/
+  - 순차모델
+  - 함수형 API
+  - 훈련 및 평가
+  - 사용자 정의 레이어 및 모델
+  - 저장 및 직렬화
+  - 전처리 레이어
+- 합성곱 신경망 (CNN) 
+  - 합성곱 연산
+  - 합성곱 신경망 
+  - CNN Example https://cs.stanford.edu/people/karpathy/convnetjs/demo/cifar10.html
+- 순환 신경망 (RNN)
+  - RNN이란/구현
+  - 다양한 자연어 처리 모델 
+  - RNN Example
+    - [워드 임베딩](https://www.tensorflow.org/text/guide/word_embeddings?hl=ko)
+    - [임베딩 프로젝터](http://projector.tensorflow.org/?hl=ko&_gl=1*asiyjg*_ga*MTYwNDg0NjExMC4xNjYzODA2OTIz*_ga_W0YLR4190T*MTY4MjU1NjU5NS43LjEuMTY4MjU1NjYyMC4wLjAuMA..)
 - https://www.tensorflow.org/tutorials?hl=ko
 - DNN Demo
   - [Tensorflow Playground](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.89991&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false)
-- RNN Example
-  - [워드 임베딩](https://www.tensorflow.org/text/guide/word_embeddings?hl=ko)
-  - [임베딩 프로젝터](http://projector.tensorflow.org/?hl=ko&_gl=1*asiyjg*_ga*MTYwNDg0NjExMC4xNjYzODA2OTIz*_ga_W0YLR4190T*MTY4MjU1NjU5NS43LjEuMTY4MjU1NjYyMC4wLjAuMA..)
-- CNN Example 
-  - https://cs.stanford.edu/people/karpathy/convnetjs/demo/cifar10.html
